@@ -2,10 +2,12 @@
        :MAIN_TAG: Целевой запрос;
         : CITIES: Интересуемые регионы;
      :EXTRA_TAGS: Дополнительные параметры;
-:NUMBER_OF_PAGES: Количество страниц. Для https://hh.ru/ одна страница соответствует 20-ти вакансиям.
-
+:NUMBER_OF_PAGES: Количество страниц. 
+                  Для https://hh.ru/ одна страница соответствует 20-ти вакансиям.
+                  Для https://career.habr.com/ одна страница соответствует 25-ти вакансиям.
+                  
 '''
 MAIN_TAG = 'python'
 CITIES = ['Москва', 'Санкт-Петербург']
-EXTRA_TAGS = ['SQL']
-NUMBER_OF_PAGES = 1
+EXTRA_TAGS = ['SQL'] # ['Django', 'Flask']
+NUMBER_OF_PAGES = 3
